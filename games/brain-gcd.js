@@ -2,7 +2,6 @@
 import { randomInteger } from '../src/cli.js';
 import playing from '../src/index.js';
 
-
 const gameRule = 'Find the greatest common divisor of given numbers.';
 function NOD(x, y) {
   if (y > x) return NOD(y, x);
